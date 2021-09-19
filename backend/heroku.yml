@@ -1,5 +1,5 @@
 build:
-  docker:
-    web: Dockerfile
+  Procfile:
+    web: Procfile
 run:
   web: ./.bin/start.sh

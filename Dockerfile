@@ -26,4 +26,4 @@ ENV PATH="/usr/src/app/.local/bin:${PATH}"
 COPY . .
 
 RUN chmod +x ./scripts/build.sh ./scripts/install.sh
-RUN ./scripts/install.sh
+RUN ./scripts/build.sh

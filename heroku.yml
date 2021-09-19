@@ -1,5 +1,5 @@
 build:
-  Procfile:
-    web: .travis.yml
+  docker:
+    web: Dockerfile
 run:
   web: ./.bin/start.sh

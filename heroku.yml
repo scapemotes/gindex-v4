@@ -1,5 +1,5 @@
 build:
   Procfile:
-    web: Procfile
+    web: .travis.yml
 run:
   web: ./.bin/start.sh
